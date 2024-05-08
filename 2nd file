@@ -1,1 +1,16 @@
-
+#include <stdio.h>
+/*
+This is my first C program
+*/
+int main()
+{
+    int a = 1;
+    float b = 2.5;
+    char c = 'u';
+    int d = 99;
+    printf("the value of a is %d \n", a);
+    printf("the valur of b is %f \n", b);
+    printf("the value of c is %c \n", c);
+    printf("the sum of a and d is %d \n", d);
+    return 0;
+}
