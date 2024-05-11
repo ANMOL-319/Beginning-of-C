@@ -1,0 +1,15 @@
+/*Write a program to determine whether the number is divisible by 97 or not*/
+
+#include <stdio.h>
+int main()
+{
+    int num;
+
+    printf("Enter your number : \n", num);
+    scanf("%d", &num);
+
+    printf("Divisibilty Test  : %d\n", num % 97);
+    /*NOTE: If the output is zero then it is divisible by 97 else it is not divisible by 97*/
+
+    return 0;
+}
