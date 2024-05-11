@@ -5,7 +5,8 @@ int main()
     printf("Enter your age :");
     scanf("%d", &age);
 
-    if (age >= 90)
+    if (age >= 90)//>= means greater or equal to
+   //  (age!=90) // != means not equal to
     {
         printf("Your age is above 90, you cannot drive\n");
     }
