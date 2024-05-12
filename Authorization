@@ -14,5 +14,11 @@ int main()
          printf("Your age is lower than 90, you can drive\n");
     }
 
+    if (age==50)// double == to check equality
+    {
+    printf("Half-Century", age);
+    }
+
+
     return 0;
 }
