@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    // lowercase letter= 97-122 = a-z --> These are ASCII values
+    char ch;
+    printf("Enter your character: ");
+    scanf("%c", &ch);
+
+    if (ch >= 97 && ch <= 122)
+
+    {
+        printf("It is a lowercase !", ch);
+    }
+    else
+    {
+        printf("It is not a lowercase !", ch);
+    }
+    return 0;
+}
