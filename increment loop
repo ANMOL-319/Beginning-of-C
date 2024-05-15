@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int i = 5;
+
+    // i++ means first increment than print
+    // ++i means first print than increment
+
+    printf("The value of i++ is %d\n", ++i); // here it will print 5 and go down and print 6
+    i++;                                     // here it will first do increment and print 7
+    ++i;                                     //here it will print 8 and go down
+    printf("The value of i is %d\n", i);
+
+    i += 10; //--> Increment by 10           // here it will add 10 to the add and gives result of 18
+    printf("The value of i is %d\n", i);
+    return 0;
+}
