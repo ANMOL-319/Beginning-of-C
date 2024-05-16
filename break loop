@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int i=0;
+
+    do   {
+        printf("The value of i is %d\n", i);
+        i++;
+        if(i==75)
+        break; // It is used when we have to stop the looping process before it comes to its endpoint
+    } while (i<100);
+    
+    return 0;}
