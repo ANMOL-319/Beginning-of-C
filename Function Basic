@@ -1,0 +1,13 @@
+#include <stdio.h>
+void display(); // Function Prototype
+int main(){
+    printf("Initializing Display Function\n"); 
+    display();  // Function Call
+    printf("Display function has finished its work.");
+
+    return 0;}
+
+//Function definition
+    void display(){
+        printf("This is display.\n");
+    }
