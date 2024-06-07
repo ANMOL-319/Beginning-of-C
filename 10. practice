@@ -1,0 +1,18 @@
+#include <stdio.h>
+void result(int a)
+{
+    int result;
+ a=1;
+ result= a*10;
+}
+int main()
+
+{
+int a=1;
+    int result= a*10;
+    printf("The 10 times of variable a is %d", result);
+   
+
+
+      
+    return 0;}
