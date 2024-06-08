@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int n_students = 3; // Number of sttudents
+    int n_subjects = 3; // Number of subjects
+
+    int marks[3][3]; //  Array to store marks of students in subjects
+    int j;
+    //  // Loop to get marks from user input
+    for (int i = 0; i < n_students; i++)
+    {
+        for (int j = 0; j < n_subjects; j++){
+            printf("Enter the value of marks of student %d in subject %d: \n", i + 1, j + 1);
+            scanf("%d", &marks[i][j]);
+        }
+    
+    } //     // Loop to print the marks
+    for (int i = 0; i < n_students; i++)
+    {
+        for (int j = 0; j < n_subjects; j++)
+            printf("The value of marks of student %d in subject %d\n", i + 1, j + 1, marks[i][j]);
+    }
+
+    return 0;
+}
