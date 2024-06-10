@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<string.h>
+int occurrence(char st[], char c){
+    char *ptr = st;
+    int count = 0;
+
+    while (*ptr!='\0')
+    {
+       if (*ptr==c)
+       {
+      count++;
+     
+
+       }
+     ptr++;  
+    }
+    return count;
+    
+}
+int main(){
+    char st[] = "Anmol";
+    int count = occurrence(st, 'A');
+  printf("Occurrence = %d", count);
+    return 0;}
