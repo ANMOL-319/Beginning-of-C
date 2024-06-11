@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    struct bankaccount;
+    int account;
+    float amount;
+    char name[20];
+
+    printf("Enter your bank account number: ");
+    scanf("%d", &account);
+
+    printf("Enter your total bank amount:  ");
+    scanf("%f", &amount);
+
+    printf("Enter your account name: ");
+    scanf("%s", name);
+    
+    printf("Your all bank information that you mentioned above are: \n");
+
+    printf("Your bank account name is %s. \n", name);
+    printf("Your bank account number is %d. \n", account);
+    printf("Your total bank amount is %f. \n", amount);
+
+    return 0;}
