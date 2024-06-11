@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+
+
+struct employee
+{
+    int code;
+    float salary;
+    char name[20];
+};
+
+int main() // NOTE: to store employee's name, we have to use '%s' integer and we are not allowed to do '&' in scan f while storing employee's name
+{
+   struct employee e1;
+   struct employee *ptr;
+
+   ptr = &e1;
+   (*ptr).code = 101;
+
+   printf("%d", e1.code);
+
+    return 0;
+}
