@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+    FILE *ptr;
+
+    // //fgetc demo for reading a file character by character
+    // ptr = fopen("getc_demo.txt", "r");
+    // // char c = fgetc(ptr);
+
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+    // printf("The value of my character is %c\n", fgetc(ptr));
+
+
+    ptr = fopen("putcdemo.txt", "w"); // This will generate putcdemo.txt file automatically
+    putc('c', ptr);
+    fclose(ptr);
+ return 0;
+}
