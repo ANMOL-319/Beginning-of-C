@@ -6,6 +6,10 @@ int main(){
     // ptr = fopen("getc_demo.txt", "r");
     // // char c = fgetc(ptr);
 
+// //fgetc is used to read a character from a file
+// //fputc is used to write a character to the file
+
+
     // printf("The value of my character is %c\n", fgetc(ptr));
     // printf("The value of my character is %c\n", fgetc(ptr));
     // printf("The value of my character is %c\n", fgetc(ptr));
