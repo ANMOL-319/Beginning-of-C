@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    FILE *fptr;
+    int number;
+    int a;
+
+    printf("Enter your number: ", a);
+    scanf("%d", &a);
+
+    fptr = fopen("generated.txt", "w"); // This will generate a txt file automatically 
+    fprintf(fptr, "The number is %d.\n", a);
+     fprintf(fptr, "Thanks for using fprintf.");
+    fclose(fptr);
+    return 0;}
